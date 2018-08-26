@@ -20,7 +20,10 @@ You will have to adjust prefetch count for worker as per need.
     
 ### These are some of the stats from single node machine. 
 
+With only worker running.
 ![Only Worker Running](/images/only-worker-running.png)
+
+With Schedulers and Sindle worker running 
 ![Worker And Scheduler Running](/images/worker-scheduler.png)
 
  
