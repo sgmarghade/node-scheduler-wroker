@@ -1,0 +1,25 @@
+{
+  "name": "node-scheduler-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sgmarghade/node-scheduler-wroker.git"
+  },
+  "keywords": [
+    "Node",
+    "Scheduler",
+    "Worker",
+    "RabbitMq"
+  ],
+  "author": "Swapnil Marghade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgmarghade/node-scheduler-wroker/issues"
+  },
+  "homepage": "https://github.com/sgmarghade/node-scheduler-wroker#readme"
+}
