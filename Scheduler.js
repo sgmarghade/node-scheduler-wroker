@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const Promise = require('bluebird');
 const schedule = require('node-schedule');
-const EventDispatcher = require('./src/event-managers/event-dispatcher');
+const EventDispatcher = require('./src/queue-event/event-dispatcher');
 
 let schedulerFiles = __dirname + '/src/schedulers';
 

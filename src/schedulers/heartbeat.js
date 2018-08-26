@@ -1,4 +1,4 @@
-const events = require('../event-managers/events');
+const events = require('../queue-event/events');
 module.exports = (eventDispatcher) => {
   return {
     task: function () {
