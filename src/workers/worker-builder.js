@@ -135,7 +135,7 @@ WorkerBuilder.prototype.run = function () {
   var self = this;
 
   //Maximum unack messages in channel.
-  self.channel.prefetch(4);
+  self.channel.prefetch(config.rabbitmq.prefetchCount);
 
   for (let queueName in self.runners) {
     self.channel.consume(queueName, self.generateCallback(queueName, self.runners[queueName]), {
