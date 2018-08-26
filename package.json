@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/sgmarghade/node-scheduler-wroker/issues"
   },
-  "homepage": "https://github.com/sgmarghade/node-scheduler-wroker#readme"
+  "homepage": "https://github.com/sgmarghade/node-scheduler-wroker#readme",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "bluebird": "^3.5.1",
+    "change-case": "^3.0.2",
+    "common-errors": "^1.0.5",
+    "node-schedule": "^1.3.0"
+  }
 }

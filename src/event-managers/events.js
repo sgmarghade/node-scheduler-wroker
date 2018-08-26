@@ -1,0 +1,16 @@
+module.exports = {
+  HEARTBEAT: {
+    exchange: 'HEARTBEAT',
+    queues: ['HEARTBEAT']
+  },
+
+  UPDATE_ALGOLIA_PRODUCT: {
+    exchange: 'UPDATE_ALGOLIA_PRODUCT',
+    queues: ['UPDATE_ALGOLIA_PRODUCT']
+  },
+
+  UPDATE_INVENTORY_MONTHLY_CONSUMPTION: {
+    exchange: 'UPDATE_INVENTORY_MONTHLY_CONSUMPTION',
+    queues: ['UPDATE_INVENTORY_MONTHLY_CONSUMPTION']
+  }
+};
