@@ -1,7 +1,7 @@
 # node-scheduler-wroker
-#### Implementing Node Scheduler and Node Worker with RabbitMq.
+#### Simple Node Scheduler and Node Worker with RabbitMq.
 
-This is classic example of Scheduler and Node Worker implementation using NodeJs and RabbitMq.
+This is simple and scalable Scheduler and  Worker implementation using NodeJs and RabbitMq.
 
 Worker is highly scalable and can consume up to 10k Events/instance, with scope to scale horizontally.  
 
