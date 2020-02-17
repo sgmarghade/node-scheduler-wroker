@@ -23,7 +23,7 @@ You will have to adjust prefetch count for worker as per need.
 With only worker running.
 ![Only Worker Running](/images/only-worker-running.png)
 
-With Schedulers and Sindle worker running 
+With Schedulers and Single worker running 
 ![Worker And Scheduler Running](/images/worker-scheduler.png)
 
  
